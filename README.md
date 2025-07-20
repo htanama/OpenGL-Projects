@@ -14,3 +14,11 @@ Each examples has Makefile special text file that you can read how to compile th
 ```c
 gcc -Wall -g hello.c -o hello -lglfw -lGL
 ```
+
+How to run make file? 
+
+To execute a make file, simply navigate to the directory containing the `Makefile` in your terminal and type `make`. 
+If there is a  specific target (e.g., "build"), you can specify it with `make build`.
+Makefiles are used by the make utility to automate tasks like compiling code, and they define dependencies and commands to execute.
+
+Here is a YouTube video that explain it well how to use GNU Make https://www.youtube.com/watch?v=mQupK2oTPF4
